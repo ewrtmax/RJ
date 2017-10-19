@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="RtoJava:war exploded">
+    <output-path>$PROJECT_DIR$/target/RtoJava-1.2</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RtoJava" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.rosuda:JRI:1.0" />
+          <element id="library" level="project" name="Maven: org.rosuda.REngine:REngine:2.1.0" />
+          <element id="library" level="project" name="Maven: org.rosuda:jri:0.8.8-osx" />
+          <element id="library" level="project" name="Maven: org.nuiton.thirdparty:JRI:0.9-9" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/RtoJava-1.2/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="RtoJava/web/Web" />
+    </root>
+  </artifact>
+</component>

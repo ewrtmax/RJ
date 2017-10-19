@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.work</groupId>
+    <artifactId>RtoJava</artifactId>
+    <version>1.2</version>
+
+    <packaging>war</packaging>
+
+
+    <dependencies>
+
+
+        <dependency>
+            <groupId>org.rosuda</groupId>
+            <artifactId>JRI</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.rosuda.REngine/REngine -->
+        <dependency>
+            <groupId>org.rosuda.REngine</groupId>
+            <artifactId>REngine</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.rosuda/jri -->
+        <dependency>
+            <groupId>org.rosuda</groupId>
+            <artifactId>jri</artifactId>
+            <version>0.8.8-osx</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.nuiton.thirdparty/JRI -->
+        <dependency>
+            <groupId>org.nuiton.thirdparty</groupId>
+            <artifactId>JRI</artifactId>
+            <version>0.9-9</version>
+        </dependency>
+
+
+
+
+    </dependencies>
+
+</project>
